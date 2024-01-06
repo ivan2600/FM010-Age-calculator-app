@@ -38,6 +38,14 @@ body {
   margin-top: 9rem;
 }
 
+.linea {
+  border-bottom: 1px solid black;
+  width: 34rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+  border-color: var(--Light-grey);
+}
+
 .inputs-container {
   display: flex;
   justify-content: center;
@@ -116,7 +124,7 @@ body {
   background-color: var(--Purple);
   margin: 0 auto;
   margin-bottom: 30px;
-  margin-top: 3rem;
+  margin-top: -30px;
 }
 
 .main-container .submit:focus {
@@ -145,4 +153,57 @@ body {
 
 .results p span {
   color: var(--Purple);
+}
+
+@media screen and (min-width: 880px) {
+  .main-container {
+    width: 840px;
+    margin-top: 2rem;
+  }
+  .inputs-container {
+    width: 600px;
+    margin-top: 4rem;
+    margin-left: 2.5rem;
+  }
+  .inputs-container input {
+    width: 15rem;
+    height: 7rem;
+    margin: 0 20px;
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+  }
+  .inputs-container p {
+    margin-left: 22px;
+    margin-bottom: 3px;
+    margin-top: 1.5rem
+  }
+  .inputs-container .error {
+    width: 12rem;
+    margin-left: 35px;
+  }
+  .linea {
+    width: 72rem;
+  }
+  .main-container .submit {
+    height: 100px;
+    width: 100px;
+    margin-left: 700px;
+    margin-bottom: 0px;
+    margin-top: -50px;
+  }
+  .main-container .submit img {
+    height: 40px;
+  }
+  .results p {
+    font-size: 11rem;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 11rem;
+  }
+  .results {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 6rem;
+  }
 }
