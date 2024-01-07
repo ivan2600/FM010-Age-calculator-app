@@ -161,6 +161,7 @@ body {
   .main-container {
     width: 840px;
     margin-top: 2rem;
+    border-bottom-right-radius: 200px;
   }
   .inputs-container {
     width: 600px;
