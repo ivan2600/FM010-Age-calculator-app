@@ -12,17 +12,17 @@
     <div class="inputs-container">
       <label for="day">
         <p class="p-day">DAY</p>
-        <input type="text" name="" id="day" placeholder="DD">
+        <input type="number" name="" id="day" placeholder="DD" min="1" max="31">
         <span class="error error-day">Must be a valid day</span>
       </label>
       <label for="month">
         <p class="p-month">MONTH</p>
-        <input type="text" name="" id="month" placeholder="MM">
+        <input type="number" name="" id="month" placeholder="MM" min="1" max="12">
         <span class="error error-month">Must be a valid month</span>
       </label>
       <label for="year">
         <p class="p-year">YEAR</p>
-        <input type="text" name="" id="year" placeholder="AAAA">
+        <input type="number" name="" id="year" placeholder="AAAA" min="1950" max="2024">
         <span class="error error-year">Must be in the past</span>
       </label>
     </div>
